@@ -1,0 +1,3 @@
+CREATE EXTENSION IF NOT EXISTS vector;
+CREATE SCHEMA IF NOT EXISTS "ragAi";
+ALTER DATABASE postgres SET search_path TO "ragAi", public;
